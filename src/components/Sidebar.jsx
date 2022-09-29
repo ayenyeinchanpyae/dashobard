@@ -11,7 +11,7 @@ const Sidebar = () => {
       <div className="flex flex-col items-center ">
         <p className="text-3xl pt-8 font-bold text-[#30234a]">Linguuu</p>
         <ul className="menu pt-16 p-2 rounded-box text-[#a8a3b1] ">
-          <li className="flex hover:text-[#895fde] hover:bg-[#f7f3ff] ">
+          <li className="flex text-[#895fde] bg-[#f7f3ff] ">
             <a className="flex space-x-2">
               <span>
                 <BsBarChartFill />
