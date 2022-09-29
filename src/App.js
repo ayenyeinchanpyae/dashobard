@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import Sidebar from "./components/Sidebar";
+import Center from "./components/Center";
+import ConversationSections from "./components/ConversationSections";
+import Chart from "./components/Chart";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="flex w-full  mb-4">
+      <Sidebar className="w-1/4" />
+      <div className=" flex w-3/4 justify-between">
+        {/* <Center className="w-4/7" /> */}
+        <Center className="w-5/7" />
+
+        <ConversationSections className="w-2/7" />
+      </div>
     </div>
   );
 }
