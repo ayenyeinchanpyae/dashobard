@@ -7,7 +7,7 @@ import { VscSaveAll } from "react-icons/vsc";
 
 const Sidebar = () => {
   return (
-    <div className="bg-white w-[20%] flex justify-center ">
+    <div className="bg-white w-[20%] flex justify-center border-r-2 border-slate-50 ">
       <div className="flex flex-col items-center ">
         <p className="text-3xl pt-8 font-bold text-[#30234a]">Linguuu</p>
         <ul className="menu pt-16 p-2 rounded-box text-[#a8a3b1] ">

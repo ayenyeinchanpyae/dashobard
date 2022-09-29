@@ -4,7 +4,7 @@ import { FiStar } from "react-icons/fi";
 import Chart from "./Chart";
 const Center = () => {
   return (
-    <div className="w-[70%] flex flex-col space-y-8 px-16">
+    <div className="w-[70%] flex flex-col space-y-4 px-16">
       {/* search bar */}
       <form class="flex items-center mt-8  w-full max-w-xs">
         <div class="relative w-full">
@@ -48,17 +48,17 @@ const Center = () => {
         </div>
         <div className="flex h-[80px] space-x-4">
           <div className="flex items-center p-4 space-x-4 bg-[#ffeee4] rounded-[20px] w-1/2">
-            <TbMessage className="text-[#f38c6b]" size={50} />
+            <TbMessage className="text-[#f38c6b]" size={40} />
             <div className="text-[#f38c6b]">
               <p className="2xl font-bold">4</p>
               <p className="xl font-bold">week practice</p>
             </div>
           </div>
           <div className="flex items-center p-4 space-x-4 bg-[#f0e8fc] rounded-[20px] w-1/2">
-            <BsCheckLg className="text-[#6d4bba]" size={50} />
+            <BsCheckLg className="text-[#6d4bba]" size={40} />
             <div className="text-[#6d4bba]">
               <p className="2xl font-bold">64</p>
-              <p className="xl font-bold">lesson learned</p>
+              <p className="xl font-bold">lessons learned</p>
             </div>
           </div>
         </div>

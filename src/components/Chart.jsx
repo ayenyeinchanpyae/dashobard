@@ -56,14 +56,28 @@ class Chart extends React.Component {
   }
 
   render() {
+    // const legendMarginRight = {
+    //   id: "legendMarginRight",
+    //   afterInit(chart, args, options) {
+    //     console.log(chart.legend.fit);
+    //     const fitValue = chart.legend.fit;
+    //     chart.legend.fit = function fit() {
+    //       fitValue.bind(chart.legend)();
+    //       let width = (this.width = 100);
+    //       return width;
+    //     };
+    //   },
+    // };
     const options = {
+      maintainAspectRatio: false,
       legend: {
         display: true,
         position: "right",
       },
-      maintainAspectRatio: false,
+
       type: "bar",
       barThickness: 5,
+      //plugins: [legendMarginRight],
     };
     return (
       <div className="w-[550px] h-[200px]">
